@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    
+    <!-- four color scheme select = Monochromatic, Analogous, Triad, Complementary -->
+    <!-- Monochromatic = if i choose red color then it will show red color variations only. -->
+    <!-- Analogous = if i choose red color then it will show red color with near colors also on color wheels -->
+    <!-- Triad = it will show three colors with equal distance on color wheels. -->
+    <!-- Complementary = it will show opp. colors -->
+
+    <main>
+        
+        <!-- section-1 = color select, color scheme select, generate btn -->
+        <section class="color-input-section">
+            <!-- color select -->
+            <input type="color" name="color-input" id="color-input">
+
+            <!-- choose color scheme type -->
+             <select name="color-scheme" id="color-scheme">
+                <option value="Select">Select Color Schemes</option>
+                <option value="monochrome">monochrome</option>
+                <option value="analogic">analogic</option>
+                <option value="triad">triad</option>
+                <option value="complement">complement</option>
+             </select>
+
+            
+             <!-- button to generate -->
+             <button id="get-color-scheme">Get Color Scheme</button>
+        </section>
+
+        <!-- section-2 = show colors -->
+         <section class="color-section">
+
+            <!-- first-color -->
+            <div class="color-display-section">
+                <!-- color -->
+                <div class="color-display"></div> 
+
+                <!-- hex code -->
+                <p class="hex-display"></p>
+            </div>
+
+            <!-- second-color -->
+            <div class="color-display-section">
+                <!-- color -->
+                <div class="color-display"></div> 
+
+                <!-- hex code -->
+                <p class="hex-display"></p>
+            </div>
+
+            <!-- third-color -->
+            <div class="color-display-section">
+                <!-- color -->
+                <div class="color-display"></div> 
+
+                <!-- hex code -->
+                <p class="hex-display"></p>
+            </div>
+
+            <!-- third-color -->
+            <div class="color-display-section">
+                <!-- color -->
+                <div class="color-display"></div> 
+
+                <!-- hex code -->
+                <p class="hex-display"></p>
+            </div>
+
+            <!-- fourth-color -->
+            <div class="color-display-section">
+                <!-- color -->
+                <div class="color-display"></div> 
+
+                <!-- hex code -->
+                <p class="hex-display"></p>
+            </div>
+
+            <!-- fifth-color -->
+            <div class="color-display-section">
+                <!-- color -->
+                <div class="color-display"></div> 
+
+                <!-- hex code -->
+                <p class="hex-display"></p>
+            </div>
+
+         </section>
+
+        <!-- section-3 = instruction to users, click on color to copy color hex. -->
+         <section class="message-container">
+            <p class="message">Click on color/hex value to copy to clipboard.</p>
+         </section>
+
+    </main>
+
+    
+</body>
+</html>
